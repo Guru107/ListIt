@@ -1,5 +1,14 @@
 apply plugin: 'java'
+apply plugin: 'me.tatarka.retrolambda'
+
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'io.reactivex:rxjava:1.0.14'
+}
+
+retrolambda {
+    oldJdk JAVA7_HOME
+    jdk JAVA8_HOME
+    jvmArgs '-noverify'
 }
