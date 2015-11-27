@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ListIt</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="hintUsername">Username</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintEmail">Email</string>
+    <string name="strSignup">Sign Up</string>
+    <string name="hintConfirmPassword">Confirm Password</string>
 </resources>

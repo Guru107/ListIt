@@ -1,7 +1,9 @@
-package com.gurudatt.listit;
+package com.gurudatt.listit.renderedview.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.gurudatt.listit.R;
 
 public class MainActivity extends AppCompatActivity {
 
